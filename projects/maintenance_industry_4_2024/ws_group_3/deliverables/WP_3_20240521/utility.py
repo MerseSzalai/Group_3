@@ -943,7 +943,7 @@ if __name__ == '__main__':
 
 
     # Read data.
-    base_dictionary = 'C:/Users/Zhiguo/OneDrive - CentraleSupelec/Code/Python/digital_twin_robot/projects/maintenance_industry_4_2024/dataset/training_data/'
+    base_dictionary = '/Users/juanibaserga/Documents/GitHub/digital_twin_robot/projects/maintenance_industry_4_2024/dataset/training_data/'
     df_data = read_all_test_data_from_path(base_dictionary, remove_outliers, is_plot=False)
 
     # Pre-train the model.
